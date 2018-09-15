@@ -5,7 +5,7 @@
         version     = "1.0.1"
         versionCode = "10" >
         <!-- versionCode is optional and Android only -->
-        <preference name="phonegap-version" value="4.5.0" />
+       <!-- <preference name="phonegap-version" value="5.1.0" /> -->
 
         <name>Phonegap Geolocation test</name>
         <description>Simple GPS Test</description>
