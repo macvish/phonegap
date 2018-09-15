@@ -19,6 +19,6 @@
 
         <preference name="permissions" value="none"/>
         <!-- device required so we can detect if we are using iOS -->
-		<gap:plugin name="org.apache.cordova.device" />
-		<gap:plugin name="org.apache.cordova.geolocation" />
+		<gap:plugin name="org.apache.cordova.device" version="0.3.0 />
+		<gap:plugin name="org.apache.cordova.geolocation" version="0.3.12/>
     </widget>
