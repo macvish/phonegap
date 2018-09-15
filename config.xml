@@ -12,11 +12,13 @@
         <author href="#" email="macintony1@gmail.com">
         Ahaotu MacAnthony
         </author>
+	    <feature  name="http://api.phonegap.com/1.0/geolocation"  />
+	    <feature  name="http://api.phonegap.com/1.0/device"  />
         <gap:platform name="android" />
         <gap:platform name="ios" />
 
         <preference name="permissions" value="none"/>
         <!-- device required so we can detect if we are using iOS -->
-		<gap:plugin name="org.apache.cordova.device" version="1.0.1" />
-		<gap:plugin name="org.apache.cordova.geolocation" version="1.0.1" />
+		<gap:plugin name="org.apache.cordova.device" />
+		<gap:plugin name="org.apache.cordova.geolocation" />
     </widget>
