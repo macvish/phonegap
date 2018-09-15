@@ -4,6 +4,12 @@
         id          = "com.bsdmasterindex.phonegapgeolocation-test"
         version     = "1.0.1"
         versionCode = "10" >
+	
+<preference  name="orientation"  value= "default"  />
+<preference  name="target-device"  value= "universal"  />
+<preference  name="fullscreen"  value= "true"  />
+<preference  name="webviewbounce"  value= "true"  />
+<preference  name="android-installLocation"  value= "internalOnly"  />    
         <!-- versionCode is optional and Android only -->
        <!-- <preference name="phonegap-version" value="5.1.0" /> -->
 
